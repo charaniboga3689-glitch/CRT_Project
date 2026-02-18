@@ -10,7 +10,7 @@ class TestAssignment(unittest.TestCase):
         self.assertEqual(Student_Grade_System("xyz",12,34,10), "Average grade: 18.66, Status: fail")
 
     def test3(self):
-        self.assertEqual(Student_Grade_System("preeti",90,80,70), "Average grade: 84.33, Status: Pass")
+        self.assertEqual(Student_Grade_System("preeti",90,80,70), "Average grade: 80.0, Status: Pass")
 
 if __name__ == "__main__":
     unittest.main()
